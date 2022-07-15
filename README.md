@@ -15,7 +15,7 @@ pkg> add https://github.com/mlesnoff/JchemoData.jl.git
 
 - [**Datasets**](https://github.com/mlesnoff/JchemoData.jl/tree/main/data) 
 
-## <span style="color:green"> **Main list** </span> 
+## <span style="color:green"> **Main list (work in progress)** </span> 
 
 - **cassav**
 
