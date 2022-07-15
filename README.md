@@ -1,9 +1,15 @@
 # JchemoData.jl
 
-## Datasets used as examples for package Jchemo.jl
-
 **JchemoData** provides datasets used in example scripts 
 to train on package [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl). 
+
+## <span style="color:green"> **Installation** </span> 
+
+In order to install Jchemo, run
+
+```julia
+pkg> add https://github.com/mlesnoff/JchemoData.jl.git
+```
 
 ## <span style="color:green"> **Available datasets** </span> 
 
