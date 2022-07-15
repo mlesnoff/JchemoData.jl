@@ -5,7 +5,7 @@ to train on package [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl).
 
 ## <span style="color:green"> **Installation** </span> 
 
-In order to install Jchemo, run
+In order to install **JchemoData**, run
 
 ```julia
 pkg> add https://github.com/mlesnoff/JchemoData.jl.git
