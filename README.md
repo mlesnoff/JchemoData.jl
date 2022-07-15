@@ -6,7 +6,7 @@
 
 ## <span style="color:green"> **Available datasets** </span> 
 
-- [**Datasets**](https://github.com/mlesnoff/JchemoData.jl) 
+- [**Datasets**](https://github.com/mlesnoff/JchemoData.jl/tree/main/data) 
 
 ## <span style="color:green"> **News** </span> 
 
