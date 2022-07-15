@@ -9,7 +9,15 @@ to train on package [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl).
 
 - [**Datasets**](https://github.com/mlesnoff/JchemoData.jl/tree/main/data) 
 
-## <span style="color:green"> **News** </span> 
+## <span style="color:green"> **Main list** </span> 
+
+- **cassav**
+
+Cassava roots (2009-2013)
+Origin: South-America
+FOSS NiRSystem Instruments 400-2498 nm (step = 2 nm)
+TBC concentration (beta-carotene pigment)
+Source: Harvest Plus Challenge Program, ICRAF, Columbia
 
 - **challenge2018**
 
@@ -20,14 +28,6 @@ Already preprocessed spectra with Savitzky-Golay (d = 2)
 dm: dry matter content
 ndf: fibers content
 source: CIRAD, Selmet research unit
-
-- **cassav**
-
-Cassava roots (2009-2013)
-Origin: South-America
-FOSS NiRSystem Instruments 400-2498 nm (step = 2 nm)
-TBC concentration (beta-carotene pigment)
-Source: Harvest Plus Challenge Program, ICRAF, Columbia
 
 - **forages2**
 
