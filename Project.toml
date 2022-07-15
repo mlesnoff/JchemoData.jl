@@ -1,0 +1,7 @@
+name = "JchemoData"
+authors = ["Matthieu Lesnoff <matthieu.lesnoff@gmail.com>"]
+version = "0.0.1"
+
+[deps]
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+
