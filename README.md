@@ -15,7 +15,8 @@ pkg> add https://github.com/mlesnoff/JchemoData.jl.git
 After **JchemoData** has been installed, a dataset can be loaded as follows (in REPL):
 
 ```julia
-using JLD2, Jchemo # if not already loaded
+using Jchemo, JchemoData
+using JLD2
 mypath = dirname(dirname(pathof(JchemoData)))
 db = joinpath(mypath, "data", "cassav.jld2") 
 @load db dat
