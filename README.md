@@ -12,7 +12,7 @@ pkg> add https://github.com/mlesnoff/JchemoData.jl.git
 
 ## <span style="color:green"> **Use** </span> 
 
-After **JchemoData** has been installed, a dataset can be loaded as follows (in REPL):
+A dataset can be loaded as follows (in REPL):
 
 ```julia
 using Jchemo, JchemoData
