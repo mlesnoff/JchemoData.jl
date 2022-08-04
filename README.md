@@ -27,7 +27,7 @@ pnames(dat) # print the names of the objects contained in dat
 
 - [**Datasets**](https://github.com/mlesnoff/JchemoData.jl/tree/main/data) 
 
-## <span style="color:green"> **Description** </span> 
+## <span style="color:green"> **Description of the datasets** </span> 
 
 ### **cassav**
 
