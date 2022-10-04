@@ -1,7 +1,7 @@
 name = "JchemoData"
 uuid = "3440f217-e3fb-4eda-bd77-d99cfb805e7c"
 authors = ["Matthieu Lesnoff <matthieu.lesnoff@gmail.com>"]
-version = "0.0.1"
+version = "0.0.2"
 
 [deps]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
