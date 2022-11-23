@@ -81,6 +81,17 @@ References:
 
 - Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) The New S Language. Wadsworth & Brooks/Cole. (has iris3 as iris.)
 
+### **linnerud**
+
+Linnerud data (Tenenhaus 1998, Table 1, p.15).
+
+Two tables of measures on 20 humans:
+* X = 3 variables of physical exercice.
+* Y = 3 variables of body condition. 
+
+References: 
+- Tenenhaus, M., 1998. La régression PLS: théorie et pratique. Editions Technip, Paris.
+
 ### **mango_anderson**
 
 NIRS data from [mango](https://data.mendeley.com/datasets/46htwnp833/1).
