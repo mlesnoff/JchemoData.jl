@@ -31,7 +31,7 @@ pnames(dat) # print the names of the objects contained in dat
 
 ### **cassav**
 
-NIRS data from cassava roots (2009-2013; South-America).
+NIRS data on cassava roots (2009-2013; South-America).
 FOSS NiRSystem Instruments 400-2498 nm (step = 2 nm). This is an extract of the dataset used in Lesnoff et al. 2020. Response variable:
 - TBC concentration (beta-carotene pigment).
 
@@ -49,13 +49,13 @@ NIRS data (protein content of forages and feed) used in the challenge of the con
 
 ### **forages**
 
-NIRS data from mixed forages (dried and grounded): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm).
+NIRS data on mixed forages (dried and grounded): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm).
 
 Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
 
 ### **forages2**
 
-NIRS data from mixed forages (dried and grounded): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have been preprocessed with Savitzky-Golay (d = 2). Response variables:
+NIRS data one mixed forages (dried and grounded): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have been preprocessed with Savitzky-Golay (d = 2). Response variables:
 - DM: dry matter content
 - NDF: fibers content
 
@@ -72,7 +72,7 @@ References:
 
 ### **iris** 
 
-Fisher's or Anderson's [iris](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+Fisher's or Anderson's [iris](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) dataset gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
 
 References: 
 - Fisher, R. A. (1936) The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7, Part II, 179–188.
@@ -86,8 +86,8 @@ References:
 Linnerud data (Tenenhaus 1998, Table 1, p.15).
 
 Two tables of measures on 20 humans:
-* X = 3 variables of physical exercice.
-* Y = 3 variables of body condition. 
+- X = 3 variables of physical exercice.
+- Y = 3 variables of body condition. 
 
 References: 
 - Tenenhaus, M., 1998. La régression PLS: théorie et pratique. Editions Technip, Paris.
@@ -103,7 +103,7 @@ References:
 
 ### **octane** 
 
-The [octane](https://cran.r-project.org/web/packages/rrcov/index.html) data contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
+The [octane](https://cran.r-project.org/web/packages/rrcov/index.html) dataset contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
 
 Six of the samples (25, 26, and 36-39) contain added alcohol.
 
@@ -114,7 +114,7 @@ References:
 
 ### **ozone**
 
-[Ozone](https://cran.r-project.org/web/packages/mlbench/index.html) data. A data frame with 366 observations on 13 variables, each observation is one day:
+[Ozone](https://cran.r-project.org/web/packages/mlbench/index.html) dataset. A data frame with 366 observations on 13 variables, each observation is one day:
 1. Month: 1 = January, ..., 12 = December
 2. Day of month
 3. Day of week: 1 = Monday, ..., 7 = Sunday
@@ -136,7 +136,9 @@ Reference:
 
 ### **tecator**
 
-NIRS data recorded on a Tecator Infratec Food and Feed Analyzer working in the wavelength range 850 - 1050 nm by the Near Infrared Transmission (NIT) principle. Each sample contains finely chopped pure meat with different moisture, fat and protein contents. For each meat sample the data consists of a 100 channel spectrum of absorbances and the contents of moisture (water), fat and protein. The absorbance is -log10 of the transmittance measured by the spectrometer. The three contents, measured in percent, are determined by analytic chemistry. A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
+NIRS data recorded on a Tecator Infratec Food and Feed Analyzer working in the wavelength range 850 - 1050 nm by the Near Infrared Transmission (NIT) principle. Each sample contains finely chopped pure meat with different moisture, fat and protein contents. For each meat sample the data consists of a 100 channel spectrum of absorbances and the contents of moisture (water), fat and protein. The absorbance is -log10 of the transmittance measured by the spectrometer. The three contents, measured in percent, are determined by analytic chemistry. 
+
+A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
 
 ## <span style="color:green"> **Author** </span> 
 
