@@ -103,12 +103,14 @@ References:
 
 ### **octane** 
 
-The [octane](https://cran.r-project.org/web/packages/rrcov/index.html) data contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. Six of the samples (25, 26, and 36-39) contain added alcohol.
+The [octane](https://cran.r-project.org/web/packages/rrcov/index.html) data contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
+
+Six of the samples (25, 26, and 36-39) contain added alcohol.
 
 References:
 - M. Hubert, P. J. Rousseeuw, K. Vanden Branden (2005), ROBPCA: a new approach to robust principal components analysis, Technometrics, 47, 64–79.
 
-P. J. Rousseeuw, M. Debruyne, S. Engelen and M. Hubert (2006), Robustness and Outlier Detection in Chemometrics, Critical Reviews in Analytical Chemistry, 36(3–4), 221–242.
+- P. J. Rousseeuw, M. Debruyne, S. Engelen and M. Hubert (2006), Robustness and Outlier Detection in Chemometrics, Critical Reviews in Analytical Chemistry, 36(3–4), 221–242.
 
 ### **ozone**
 
