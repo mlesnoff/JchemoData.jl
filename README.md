@@ -47,6 +47,10 @@ References:
 
 NIRS data (protein content of forages and feed) used in the challenge of the congress [Chemometrics2018](https://chemom2018.sciencesconf.org/) (Paris, January 2018). The original [data](https://chemom2018.sciencesconf.org/resource/page/id/5.html) contain errors (duplicates). The data provided in **JchemoData** have been corrected (duplicates have been removed), and documented with new descriptors (type of vegetal materials).
 
+### **challenge2021**
+
+NIRS data used in the challenge of the e-congress [Chemometrics2021](https://chemom2021.sciencesconf.org/) (Februaru 2021). A data description is available [here](https://chemom2021.sciencesconf.org/resource/page/id/5).
+
 ### **forages**
 
 NIRS data on mixed forages (dried and grounded): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm).
