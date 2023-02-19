@@ -49,7 +49,7 @@ NIRS data (protein content of forages and feed) used in the challenge of the con
 
 ### **challenge2021**
 
-NIRS data used in the challenge of the e-congress [Chemometrics2021](https://chemom2021.sciencesconf.org/) (Februaru 2021). A data description is available [here](https://chemom2021.sciencesconf.org/resource/page/id/5).
+NIRS data (reflectance) used in the challenge of the e-congress [Chemometrics2021](https://chemom2021.sciencesconf.org/) (Februaru 2021). A data description is available [here](https://chemom2021.sciencesconf.org/resource/page/id/5).
 
 ### **forages**
 
