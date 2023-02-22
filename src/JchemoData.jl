@@ -1,6 +1,6 @@
 module JchemoData  # Start-Module
 
-using JLD2
+#using JLD2
 
 include("datasets.jl") 
 
