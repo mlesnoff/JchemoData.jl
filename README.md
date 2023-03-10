@@ -53,15 +53,18 @@ NIRS data (reflectance) used in the challenge of the e-congress [Chemometrics202
 
 ### **forages**
 
-NIRS data on mixed forages (dried and grounded): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm).
+NIRS data on dried and grounded mixed forages (n = 406): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Raw spectra (not preprocesssed).
+Response variable:
+- typ: Type of forage
 
 Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
 
 ### **forages2**
 
-NIRS data one mixed forages (dried and grounded): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have been preprocessed with Savitzky-Golay (d = 2). Response variables:
+NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have been preprocessed with Savitzky-Golay (d = 2). Response variables:
 - DM: dry matter content
 - NDF: fibers content
+- typ: Type of forage
 
 Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
 
