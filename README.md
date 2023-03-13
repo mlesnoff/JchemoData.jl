@@ -147,7 +147,8 @@ NIRS data recorded on a Tecator Infratec Food and Feed Analyzer working in the w
 
 A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
 
-**Warning**: The original X-data contains 22 duplicates. They were removed in the present JLD2 dataset.
+**Warning**: The original X-data contains 22 duplicates, and the Y-data 15 replicates. 
+These replicates were removed in the present JLD2 dataset.
 
 ## <span style="color:green"> **Author** </span> 
 
