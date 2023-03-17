@@ -1,6 +1,6 @@
 # JchemoData.jl
 
-**JchemoData** provides datasets used as examples to train on package [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl). 
+**JchemoData** is a package that provides datasets used as examples to train on package [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl). 
 
 ## <span style="color:green"> **Installation** </span> 
 
