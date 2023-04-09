@@ -18,7 +18,7 @@ A dataset can be loaded as follows (in REPL):
 using Jchemo, JchemoData
 using JLD2
 path_jdat = dirname(dirname(pathof(JchemoData)))
-db = joinpath(path_jdat, "data", "cassav.jld2") 
+db = joinpath(path_jdat, "data/cassav.jld2") 
 @load db dat
 pnames(dat) # print the names of the objects contained in dat
 ```
@@ -30,38 +30,37 @@ pnames(dat) # print the names of the objects contained in dat
 ## <span style="color:green"> **Description of the datasets** </span> 
 
 ### **cassav**
-
 NIRS data on cassava roots (2009-2013; South-America).
-FOSS NiRSystem Instruments 400-2498 nm (step = 2 nm). This is an extract of the dataset used in Lesnoff et al. 2020. Response variable:
+FOSS NiRSystem Instruments 400-2498 nm (step = 2 nm). This is an extract of the dataset used in Lesnoff et al. 2020. 
+
+Response variable:
 - TBC concentration (beta-carotene pigment).
 
 Source: Harvest Plus Challenge Program, ICRAF, Columbia.
 
 References:
-
 - Davrieux, F., Dufour, D., Dardenne, P., Belalcazar, J., Pizarro, M., Luna, J., Londoño, L., Jaramillo, A., Sanchez, T., Morante, N., Calle, F., Becerra Lopez-Lavalle, L., Ceballos, H., 2016. LOCAL regression algorithm improves near infrared spectroscopy predictions when the target constituent evolves in breeding populations. Journal of Near Infrared Spectroscopy 24, 109. https://doi.org/10.1255/jnirs.1213
 
 - Lesnoff, M., Metz, M., Roger, J.-M., 2020. Comparison of locally weighted PLS strategies for regression and discrimination on agronomic NIR data. Journal of Chemometrics n/a, e3209. https://doi.org/10.1002/cem.3209
 
 ### **challenge2018**
-
 NIRS data (protein content of forages and feed) used in the challenge of the congress [Chemometrics2018](https://chemom2018.sciencesconf.org/) (Paris, January 2018). The original [data](https://chemom2018.sciencesconf.org/resource/page/id/5.html) contain errors (duplicates). The data provided in **JchemoData** have been corrected (duplicates have been removed), and documented with new descriptors (type of vegetal materials).
 
 ### **challenge2021**
-
 NIRS data (reflectance) used in the challenge of the e-congress [Chemometrics2021](https://chemom2021.sciencesconf.org/) (Februaru 2021). A data description is available [here](https://chemom2021.sciencesconf.org/resource/page/id/5).
 
 ### **forages**
-
 NIRS data on dried and grounded mixed forages (n = 406): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Raw spectra (not preprocesssed).
-Response variable:
+
+Response variable (categorical):
 - typ: Type of forage
 
 Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
 
 ### **forages2**
+NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have been preprocessed with Savitzky-Golay (d = 2). 
 
-NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have been preprocessed with Savitzky-Golay (d = 2). Response variables:
+Response variables:
 - DM: dry matter content
 - NDF: fibers content
 - typ: Type of forage
@@ -69,7 +68,6 @@ NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. Orig
 Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
 
 ### **ham**
-
 Sensory evaluation of eight American dry-cured ham products, performed by a panel of trained assessors.
 
 References:
@@ -78,7 +76,6 @@ References:
 - Tchandao Mangamana, E., Cariou, V., Vigneau, E., Glèlè Kakaï, R.L., Qannari, E.M., 2019. Unsupervised multiblock data analysis: A unified approach and extensions. Chemometrics and Intelligent Laboratory Systems 194, 103856. https://doi.org/10.1016/j.chemolab.2019.103856
 
 ### **iris** 
-
 Fisher's or Anderson's [iris](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) dataset gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
 
 References: 
@@ -89,7 +86,6 @@ References:
 - Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) The New S Language. Wadsworth & Brooks/Cole. (has iris3 as iris.)
 
 ### **linnerud**
-
 Linnerud data (Tenenhaus 1998, Table 1, p.15).
 
 Two tables of measures on 20 humans:
@@ -100,7 +96,6 @@ References:
 - Tenenhaus, M., 1998. La régression PLS: théorie et pratique. Editions Technip, Paris.
 
 ### **mango_anderson**
-
 NIRS data from [mango](https://data.mendeley.com/datasets/46htwnp833/1).
 
 References:
@@ -109,10 +104,9 @@ References:
 - Anderson, N.T., Walsh, K.B., Subedi, P.P., Hayes, C.H., 2020. Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content. Postharvest Biology and Technology 168, 111202. https://doi.org/10.1016/j.postharvbio.2020.111202
 
 ### **octane** 
+[Octane](https://cran.r-project.org/web/packages/rrcov/index.html) dataset contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
 
-The [octane](https://cran.r-project.org/web/packages/rrcov/index.html) dataset contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
-
-Six of the samples (25, 26, and 36-39) contain added alcohol.
+Six of the samples **(25, 26, and 36-39)** contain added alcohol.
 
 References:
 - M. Hubert, P. J. Rousseeuw, K. Vanden Branden (2005), ROBPCA: a new approach to robust principal components analysis, Technometrics, 47, 64–79.
@@ -120,7 +114,6 @@ References:
 - P. J. Rousseeuw, M. Debruyne, S. Engelen and M. Hubert (2006), Robustness and Outlier Detection in Chemometrics, Critical Reviews in Analytical Chemistry, 36(3–4), 221–242.
 
 ### **ozone**
-
 [Ozone](https://cran.r-project.org/web/packages/mlbench/index.html) dataset. A data frame with 366 observations on 13 variables, each observation is one day:
 1. Month: 1 = January, ..., 12 = December
 2. Day of month
@@ -142,7 +135,6 @@ Reference:
 - Leo Breiman, Department of Statistics, UC Berkeley. Data used in Breiman L., Friedman J.H. (1985). Estimating optimal transformations for multiple regression and correlation, JASA, 80, pp. 580-598.
 
 ### **tecator**
-
 NIRS data recorded on a Tecator Infratec Food and Feed Analyzer working in the wavelength range 850 - 1050 nm by the Near Infrared Transmission (NIT) principle. Each sample contains finely chopped pure meat with different moisture, fat and protein contents. For each meat sample the data consists of a 100 channel spectrum of absorbances and the contents of moisture (water), fat and protein. The absorbance is -log10 of the transmittance measured by the spectrometer. The three contents, measured in percent, are determined by analytic chemistry. 
 
 A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
