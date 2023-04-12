@@ -106,7 +106,7 @@ References:
 ### **mnist_20pcts**
 This is an extraction (20%; ntrain = 12000, ntest = 2000) of the CSV version of the MNIST dabase of handwritten digits (LeCun et al.).
 
-Each row of matrices X corresponds to a 28*28 image representing a number between '0' and '9' (labels to predict), with grey levels between 0 and 255.
+Each row of matrices X represents to a 28*28 image representing a number between '0' and '9' (labels to predict), with grey levels between 0 and 255.
 
 Sources: 
 - Original: http://yann.lecun.com/exdb/mnist/
