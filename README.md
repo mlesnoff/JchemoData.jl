@@ -103,6 +103,16 @@ References:
 
 - Anderson, N.T., Walsh, K.B., Subedi, P.P., Hayes, C.H., 2020. Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content. Postharvest Biology and Technology 168, 111202. https://doi.org/10.1016/j.postharvbio.2020.111202
 
+### **mnist_20pcts**
+This is an extraction (20%; ntrain = 12000, ntest = 2000) of the CSV version of the MNIST dabase of handwritten digits (LeCun et al.).
+
+Each row of matrices X corresponds to a 28*28 image representing a number between '0' and '9' (labels to predict), with grey levels between 0 and 255.
+
+Sources: 
+- Original: http://yann.lecun.com/exdb/mnist/
+- CSV file (used for this extraction): https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
+
+
 ### **octane** 
 [Octane](https://cran.r-project.org/web/packages/rrcov/index.html) dataset contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
 
