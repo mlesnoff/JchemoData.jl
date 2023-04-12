@@ -108,6 +108,8 @@ This is an extraction (20%; ntrain = 12000, ntest = 2000) of the CSV version of 
 
 Each row of matrices X represents to a 28*28 image representing a number between '0' and '9' (labels to predict), with grey levels between 0 and 255.
 
+The JLD2 dataset is compressed; it requires package CodecZlib to be loaded.
+
 Sources: 
 - Original: http://yann.lecun.com/exdb/mnist/
 - CSV file (used for this extraction): https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
