@@ -49,8 +49,25 @@ NIRS data (protein content of forages and feed) used in the challenge of the con
 ### **challenge2021**
 NIRS data (reflectance) used in the challenge of the e-congress [Chemometrics2021](https://chemom2021.sciencesconf.org/) (Februaru 2021). A data description is available [here](https://chemom2021.sciencesconf.org/resource/page/id/5).
 
+### **corn**
+[Eigenvector Corn data](https://eigenvector.com/resources/data-sets) 
+
+This data set consists of 80 samples of corn measured on 3 different 
+NIR spectrometers. The wavelength range is 1100-2498nm at 2 nm intervals (700 channels). 
+The moisture, oil, protein and starch values for each of the samples is also included. 
+A number of NBS glass standards were also measured on each instrument. 
+The data was originally taken at Cargill.
+- m5spec: [80x700 dataset] Spectra on instrument m5
+- mp5spec: [80x700 dataset] Spectra on instrument mp5
+- mp6spec: [80x700 dataset] Spectra on instrument mp6
+- propvals: [80x4 dataset] Property values for samples
+- m5nbs: [3x700 dataset] NBS glass stds on m5
+- mp5nbs: [4x700 dataset] NBS glass stds on mp5
+- mp6nbs: [4x700 dataset] NBS glass stds on mp
+
 ### **forages**
-NIRS data on dried and grounded mixed forages (n = 406): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Raw spectra (not preprocesssed).
+NIRS data on dried and grounded mixed forages (n = 406): stems, leaves etc. Origin: mainly tropical 
+African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Raw spectra (not preprocesssed).
 
 Response variable (categorical):
 - typ: Type of forage
@@ -58,7 +75,9 @@ Response variable (categorical):
 Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
 
 ### **forages2**
-NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have been preprocessed with Savitzky-Golay (d = 2). 
+NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. Origin: mainly tropical 
+African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have 
+been preprocessed with Savitzky-Golay (d = 2). 
 
 Response variables:
 - DM: dry matter content
