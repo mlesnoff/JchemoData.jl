@@ -77,7 +77,7 @@ Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
 ### **forages2**
 NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. Origin: mainly tropical 
 African areas. FOSS NiRSystem Instruments 1100-2498 nm (step = 2 nm). Data being private, spectra have 
-been preprocessed with Savitzky-Golay (d = 2). 
+been preprocessed with a standard normal variation (SNV) and Savitzky-Golay (deriv = 2) transformation. 
 
 Response variables:
 - DM: dry matter content
