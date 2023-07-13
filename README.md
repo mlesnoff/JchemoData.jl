@@ -159,6 +159,26 @@ The problem is to predict the daily maximum one-hour-average ozone reading (vari
 Reference:
 - Leo Breiman, Department of Statistics, UC Berkeley. Data used in Breiman L., Friedman J.H. (1985). Estimating optimal transformations for multiple regression and correlation, JASA, 80, pp. 580-598.
 
+### **srbct**
+[Data](https://hastie.su.domains/ElemStatLearn/data.html) for small round blue cell 
+tumors (SRBCT) of childhood.  These data, consisting of expression measurements 
+on 2,308 genes, were obtained from glass-slide cDNA microarrays, prepared according
+to the standard National Human Genome Research Institute protocol. The tumors are 
+classified as Burkitt lymphoma (BL), Ewing sarcoma (EWS), neuroblastoma (NB), or 
+rhabdomyosarcoma (RMS). 
+
+A total of 63 training samples and 25 test samples were provided,
+although five of the latter were not SRBCTs. One gene per row, one sample per column.
+Cancer classes are labelled 1, 2, 3, 4, 5 for c("BL", "EWS", "NB", "RMS", "Not Srbct").
+
+References:
+Tibshirani, R., Hastie, T., Narasimhan, B., Chu, G., 2002. 
+Diagnosis of multiple cancer types by shrunken centroids of gene expression. 
+Proceedings of the National Academy of Sciences 99, 6567–6572. 
+https://doi.org/10.1073/pnas.082099299
+
+https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/SRBCT%20Microarray.ipynb
+
 ### **tecator**
 NIRS data recorded on a Tecator Infratec Food and Feed Analyzer working in the wavelength range 850 - 1050 nm by the Near Infrared Transmission (NIT) principle. Each sample contains finely chopped pure meat with different moisture, fat and protein contents. For each meat sample the data consists of a 100 channel spectrum of absorbances and the contents of moisture (water), fat and protein. The absorbance is -log10 of the transmittance measured by the spectrometer. The three contents, measured in percent, are determined by analytic chemistry. 
 
