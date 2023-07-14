@@ -163,13 +163,17 @@ Reference:
 [Data](https://hastie.su.domains/ElemStatLearn/data.html) for small round blue cell 
 tumors (SRBCT) of childhood.  These data, consisting of expression measurements 
 on 2,308 genes, were obtained from glass-slide cDNA microarrays, prepared according
-to the standard National Human Genome Research Institute protocol. The tumors are 
-classified as Burkitt lymphoma (BL), Ewing sarcoma (EWS), neuroblastoma (NB), or 
-rhabdomyosarcoma (RMS). 
+to the standard National Human Genome Research Institute protocol. Each expression 
+value is a log-ratio log(R/G). R is the amount of gene-specific RNA in the target 
+sample that hybridizes to a particular (gene-specific) spot on the microarray, 
+and G is the corresponding amount of RNA from a reference sample. The tumors are 
+classified as Burkitt lymphoma (BL), Ewing sarcoma (EWS), neuroblastoma (NB), 
+or rhabdomyosarcoma (RMS). 
 
 A total of 63 training samples and 25 test samples were provided,
 although five of the latter were not SRBCTs. One gene per row, one sample per column.
 Cancer classes are labelled 1, 2, 3, 4, 5 for c("BL", "EWS", "NB", "RMS", "Not Srbct").
+Class 5 is only present in the test data.
 
 References:
 Tibshirani, R., Hastie, T., Narasimhan, B., Chu, G., 2002. 
