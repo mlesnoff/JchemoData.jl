@@ -1,8 +1,8 @@
 # JchemoData.jl
 
-**JchemoData** is a Julia package containing example datasets in various formats, used for instance to train on package [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl). 
+The Julia package **JchemoData** is a repository containing datasets (chemometrics and others) in various formats (JLD2, CSV, etc.). These datasets are used in particular in the examples of [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl) and [**JchemoDemo.jl**](https://github.com/mlesnoff/JchemoDemo.jl).
 
-Datasets in JLD2 format are described below.
+JLD2 datasets are listed and described below.
 
 ## <span style="color:green"> **Installation** </span> 
 
