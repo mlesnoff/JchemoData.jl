@@ -27,7 +27,7 @@ pnames(dat) # print the names of the objects contained in dat
 
 ## <span style="color:green"> **Available datasets** </span> 
 
-- [**Datasets**](https://github.com/mlesnoff/JchemoData.jl/tree/main/data) 
+- [**Files**](https://github.com/mlesnoff/JchemoData.jl/tree/main/data) 
 
 ## <span style="color:green"> **Description of the JLD2 datasets** </span> 
 
