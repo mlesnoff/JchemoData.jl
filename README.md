@@ -213,7 +213,7 @@ A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
 **Warning**: The original X-data contains 22 duplicates, and the Y-data 15 replicates. 
 These replicates were removed in the present JLD2 dataset.
 
-### *wheatkernels*
+### wheatkernels
 
 [Dataset 3](http://www.models.kvl.dk/wheat_kernels) used in Cui & Fearn 2018.
 
