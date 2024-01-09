@@ -14,7 +14,7 @@ pkg> add https://github.com/mlesnoff/JchemoData.jl.git
 
 ## <span style="color:green"> **Use** </span> 
 
-A dataset can be loaded as follows (in REPL):
+A JLD2 dataset can be loaded as follows (in REPL):
 
 ```julia
 using Jchemo, JchemoData
@@ -79,6 +79,28 @@ Response variables:
 - typ: Type of forage
 
 Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
+
+### **grapes**
+
+Varieties of wine grapes, to be discriminated by means of NIR and visible
+spectrometry. The spectra were measured in transmission on berries separated from the bunch, 
+in laboratory conditions, with a ZEISS MMS1 spectrometer. The wavelengths ranged from 
+310 to 1100 nm. These data were collected within the framework of a project aiming at characterizing 
+the sugar content and the acidity of wine grapes by NIR spectrometry. Thus,
+the berries were selected to span a great heterogeneity of maturity. Spectra were acquired 
+by batches of 50 individuals. Each batch contained individuals of the same variety. The 
+experimentation related to 3 varieties: carignan (crg), grenache blanc (grb) and grenache noir (grn). 
+Only crg and grb varieties were measured on different batches, at various dates.
+For crg and grb varieties, the training set and the test set are different batches, 
+whereas for the grn variety, a batch of spectra was cut randomly in two equal parts. Thus, 
+the calibration and test sets consisted each of n = 125 individuals described 
+by p = 256 variables.
+
+Reference:
+- Roger JM, Palagos B, Guillaume S, Bellon-Maurel V. Discriminating from highly 
+multivariate data by Focal Eigen Function discriminant analysis; application 
+to NIR spectra. Chemometrics and Intelligent Laboratory Systems. 2005;79(1):31-41. 
+doi:10.1016/j.chemolab.2005.03.006.
 
 ### **ham**
 Sensory evaluation of eight American dry-cured ham products, performed by a panel of trained assessors.
