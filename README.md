@@ -1,5 +1,7 @@
 # JchemoData.jl
 
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+
 The Julia package **JchemoData** is a repository containing datasets (chemometrics and others) in various formats (JLD2, CSV, etc.). Some of these datasets are used in the examples provided in [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl) and [**JchemoDemo**](https://github.com/mlesnoff/JchemoDemo).
 
 **The JLD2 datasets** are listed and described below.
