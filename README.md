@@ -149,6 +149,22 @@ Sources:
 - Original: http://yann.lecun.com/exdb/mnist/
 - CSV file (used for this extraction): https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
 
+### **multifruit**
+
+[Multifruit](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I) dataset
+contains near infrared absorbance spectra (NIR) for dry matter (DM) prediction in classes of fruits (apple, avocado, kiwi, mango, pear). The collected spectra have been preprocessed by a 2nd derivative (Savitzky-Golay filter with a smoothing window of 9 points, and poly-
+nomial degree of 2) exported directly from the spectrometers. 
+
+Items are:
+- `X`, `Y` : Complete dataset imported from file multifruit_DL.mat.
+- `Xtrain`, `Ytrain`, `Xtest`, `Ytest` : Dataset imported from files multifruit_train.csv and multifruit_test.csv. This is the final dataset (before the column normalization of the X-matrices) used by Passos & Mishra (2023) to compute their CNN models. Four fruits are considered: apple, kiwi, mango and pear. The spectral range selected
+for analysis spans from 735 nm to 1050 nm (105 individual features). The excluded visible range contains information related to skin pigmentation.   
+
+References:
+- Passos, D., Mishra, P., 2023. Deep Tutti Frutti: Exploring CNN architectures for dry matter 
+prediction in fruit from multi-fruit near-infrared spectra. Chemometrics and Intelligent 
+Laboratory Systems 243, 105023. https://doi.org/10.1016/j.chemolab.2023.105023
+
 
 ### **octane** 
 [Octane](https://cran.r-project.org/web/packages/rrcov/index.html) dataset contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
