@@ -29,7 +29,7 @@ pnames(dat) # print the names of the objects contained in dat
 
 - [**Files**](https://github.com/mlesnoff/JchemoData.jl/tree/main/data) 
 
-## <span style="color:green"> **Description of the JLD2 datasets** </span> 
+## <span style="color:green"> **JLD2 datasets** </span> 
 
 ### **cassav**
 NIRS data on cassava roots (2009-2013; South-America).
