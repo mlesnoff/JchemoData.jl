@@ -80,7 +80,7 @@ Response variables:
 - NDF: fibers content
 - typ: Type of forage
 
-Source: CIRAD, [Selmet research unit](https://umr-selmet.cirad.fr/en)
+Source: CIRAD, [UMR Selmet](https://umr-selmet.cirad.fr/en)
 
 ### **grapes**
 
@@ -103,6 +103,15 @@ Reference:
 multivariate data by Focal Eigen Function discriminant analysis; application 
 to NIR spectra. Chemometrics and Intelligent Laboratory Systems. 2005;79(1):31-41. 
 doi:10.1016/j.chemolab.2005.03.006.
+
+### **grapesvariety**
+
+Visible-NIR spectra collected (with Labspec ASD) on n = 432 fresh leaves of three grape varieties 
+to be discriminated. For confidentiality, the spectra have been anonymized and preprocessed
+with a Savitsky-Golay transformation (first derivate). A gap observed in the spectra at 1000 nm 
+has been removed before the preprocessing. 
+
+Source: M. Ecarnot, Inrae, UMR Agap, Montpellier, France.
 
 ### **ham**
 Sensory evaluation of eight American dry-cured ham products, performed by a panel of trained assessors.
