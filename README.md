@@ -104,9 +104,9 @@ multivariate data by Focal Eigen Function discriminant analysis; application
 to NIR spectra. Chemometrics and Intelligent Laboratory Systems. 2005;79(1):31-41. 
 doi:10.1016/j.chemolab.2005.03.006.
 
-### **grapesvariety**
+### **grapevariety**
 
-Visible-NIR spectra collected (with Labspec ASD) on n = 432 fresh leaves of three grape varieties 
+Visible-NIR spectra collected (with Labspec ASD) on n = 432 fresh leaves of three wine grape varieties 
 to be discriminated. For confidentiality, the spectra have been anonymized and preprocessed
 with a Savitsky-Golay transformation (first derivate). A gap observed in the spectra at 1000 nm 
 has been removed before the preprocessing. 
