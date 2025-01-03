@@ -40,12 +40,29 @@ FOSS NiRSystem Instruments 400-2498 nm (step = 2 nm). This is an extract of the 
 Response variable:
 - TBC concentration (beta-carotene pigment).
 
-Source: Harvest Plus Challenge Program, ICRAF, Columbia.
+Sources: 
+- Harvest Plus Challenge Program, ICRAF, Columbia.
 
 References:
 - Davrieux, F., Dufour, D., Dardenne, P., Belalcazar, J., Pizarro, M., Luna, J., Londoño, L., Jaramillo, A., Sanchez, T., Morante, N., Calle, F., Becerra Lopez-Lavalle, L., Ceballos, H., 2016. LOCAL regression algorithm improves near infrared spectroscopy predictions when the target constituent evolves in breeding populations. Journal of Near Infrared Spectroscopy 24, 109. https://doi.org/10.1255/jnirs.1213
 
 - Lesnoff, M., Metz, M., Roger, J.-M., 2020. Comparison of locally weighted PLS strategies for regression and discrimination on agronomic NIR data. Journal of Chemometrics n/a, e3209. https://doi.org/10.1002/cem.3209
+
+### **cereal**
+Dataset 'cereal' in Filzmoser 2023.
+For 15 cereals an X and Y data set, measured on the same objects, is 
+available (Filzmoser 2023). The X data are 145 infrared spectra, and the
+Y data are 6 chemical/technical properties (Heating value, C, H, N, Starch, Ash). 
+The cereals come from 5 groups: B=Barley, M=Maize, R=Rye, T=Triticale, W=Wheat. 
+The data set can be used for PLS2.
+
+Sources: 
+- Package chemometrics; Multivariate Statistical Analysis in Chemometrics, 
+2023, Filzmoser P.
+
+References:
+- K. Varmuza and P. Filzmoser: Introduction to Multivariate Statistical 
+Analysis in Chemometrics. CRC Press, Boca Raton, FL, 2009.
 
 ### **challenge2018**
 NIRS data (protein content of forages and feed) used in the challenge of the congress [Chemometrics2018](https://chemom2018.sciencesconf.org/) (Paris, January 2018). The original [data](https://chemom2018.sciencesconf.org/resource/page/id/5.html) contain errors (duplicates). The data provided in **JchemoData** have been corrected (duplicates have been removed), and documented with new descriptors (type of vegetal materials).
@@ -69,6 +86,27 @@ The data was originally taken at Cargill.
 - mp5nbs: [4x700 dataset] NBS glass stds on mp5
 - mp6nbs: [4x700 dataset] NBS glass stds on mp
 
+### **fermentation**
+Dataset 'NIR' in Filzmoser 2023.
+Liebmann et al. 2009 (Filzmoser et al 2012) provided this dataset where 166 alcoholic
+fermentation mashes of different feedstock (rye, wheat, and corn) were analyzed. The response 
+variables are the concentrations of glucose and ethanol (in grams per liter) in substrates
+from the bioethanol processes. The 235 predictor variables contain the first derivatives 
+of near infrared spectroscopy (NIR) absorbance values at 1115–2285 nm, measured 
+in liquid samples. 
+
+Sources: 
+- Package chemometrics; Multivariate Statistical Analysis in Chemometrics
+2023, Filzmoser P.
+
+References:
+- B. Liebmann, A. Friedl, and K. Varmuza. Determination of glucose and ethanol 
+in bioethanol production by near infrared spectroscopy and chemometrics. 
+Anal. Chim. Acta, 642:171-178, 2009.
+- Filzmoser, P., Gschwandtner, M., Todorov, V., 2012. Review of sparse methods 
+in regression and classification with application to chemometrics. Journal of 
+Chemometrics 26, 42–51. https://doi.org/10.1002/cem.1418
+
 ### **forages2**
 NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. 
 Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm 
@@ -80,10 +118,10 @@ Response variables:
 - NDF: fibers content
 - typ: Type of forage
 
-Source: CIRAD, [UMR Selmet](https://umr-selmet.cirad.fr/en)
+Sources: 
+- CIRAD, [UMR Selmet](https://umr-selmet.cirad.fr/en)
 
 ### **grapes**
-
 Varieties of wine grapes, to be discriminated by means of NIR and visible
 spectrometry. The spectra were measured in transmission on berries separated from the bunch, 
 in laboratory conditions, with a ZEISS MMS1 spectrometer. The wavelengths ranged from 
@@ -98,7 +136,7 @@ whereas for the grn variety, a batch of spectra was cut randomly in two equal pa
 the calibration and test sets consisted each of n = 125 individuals described 
 by p = 256 variables.
 
-Reference:
+References:
 - Roger JM, Palagos B, Guillaume S, Bellon-Maurel V. Discriminating from highly 
 multivariate data by Focal Eigen Function discriminant analysis; application 
 to NIR spectra. Chemometrics and Intelligent Laboratory Systems. 2005;79(1):31-41. 
@@ -111,7 +149,8 @@ to be discriminated. For confidentiality, the spectra have been anonymized and p
 with a Savitsky-Golay transformation (first derivate). A gap observed in the spectra at 1000 nm 
 has been removed before the preprocessing. 
 
-Source: M. Ecarnot, Inrae, UMR Agap, Montpellier, France.
+Sources: 
+- M. Ecarnot, Inrae, UMR Agap, Montpellier, France.
 
 ### **ham**
 Sensory evaluation of eight American dry-cured ham products, performed by a panel of trained assessors.
@@ -163,8 +202,7 @@ Sources:
 ### **multifruit**
 
 [Multifruit](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I) dataset
-contains near infrared absorbance spectra (NIR) for dry matter (DM) prediction in classes of fruits (apple, avocado, kiwi, mango, pear). The collected spectra have been preprocessed by a 2nd derivative (Savitzky-Golay filter with a smoothing window of 9 points, and poly-
-nomial degree of 2) exported directly from the spectrometers. 
+contains near infrared absorbance spectra (NIR) for dry matter (DM) prediction in classes of fruits (apple, avocado, kiwi, mango, pear). The collected spectra have been preprocessed by a 2nd derivative (Savitzky-Golay filter with a smoothing window of 9 points, and poly-nomial degree of 2) exported directly from the spectrometers. 
 
 Items are:
 - `X`, `Y` : Complete dataset imported from file multifruit_DL.mat.
@@ -184,7 +222,6 @@ Six of the samples **(25, 26, and 36-39)** contain added alcohol.
 
 References:
 - M. Hubert, P. J. Rousseeuw, K. Vanden Branden (2005), ROBPCA: a new approach to robust principal components analysis, Technometrics, 47, 64–79.
-
 - P. J. Rousseeuw, M. Debruyne, S. Engelen and M. Hubert (2006), Robustness and Outlier Detection in Chemometrics, Critical Reviews in Analytical Chemistry, 36(3–4), 221–242.
 
 ### **ozone**
@@ -205,8 +242,28 @@ References:
 
 The problem is to predict the daily maximum one-hour-average ozone reading (variable 4).
 
-Reference:
+References:
 - Leo Breiman, Department of Statistics, UC Berkeley. Data used in Breiman L., Friedman J.H. (1985). Estimating optimal transformations for multiple regression and correlation, JASA, 80, pp. 580-598.
+
+### **pac** 
+
+Dataset 'PAC' in Filzmoser 2023.
+This dataset contains data describing chemical–physical properties of chemical compounds 
+and thus belongs to the area of quantitative structure–property relationships (QSAR). 
+The compounds are modeled by chemical structure data, which have been drawn
+manually by the structure editor software Corina and Dragon. Here, 209 polycyclic aromatic compounds, 
+which are characterized by 467 molecular descriptors (X), are considered. The response variable (y) 
+is the gas chromatographic retention index for several substance classes. Because the descriptors cover
+a great diversity of chemical structures, still many of them may be irrelevant for predicting the response. 
+
+Sources: 
+- Package chemometrics; Multivariate Statistical Analysis in Chemometrics 2023, Filzmoser P.
+
+References:
+- Filzmoser, P., Gschwandtner, M., Todorov, V., 2012. Review of sparse methods 
+in regression and classification with application to chemometrics. Journal of 
+Chemometrics 26, 42–51. https://doi.org/10.1002/cem.1418
+
 
 ### **srbct**
 [Data](https://hastie.su.domains/ElemStatLearn/data.html) for small round blue cell 
