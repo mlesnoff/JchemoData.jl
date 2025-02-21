@@ -315,10 +315,19 @@ regression: application to NIR calibration. Chemometrics and Intelligent Laborat
 
 - Dorthe Kjær Pedersen, Harald Martens, Jesper Pram Nielsen and Søren Balling Engelsen. 2002. 
 Near infrared absorption and scattering separated by Extended Inverted Signal Correction (EISC). 
-Analysis of NIT spectra of single wheat seeds. Applied Spectroscopy, submitted.
+Analysis of NIT spectra of single wheat seeds. Applied Spectroscopy, 56, 9, 1206-1214.
 
-- Jesper Pram Nielsen, Dorthe Kjær Pedersen and Lars Munck. 2002. Development of non-destructive 
-screening methods for single kernel characterisation of wheat. Cereal Chemistry, submitted.
+- Jesper Pram Nielsen, Dorthe Kjær Pedersen and Lars Munck. 2003. Development of non-destructive 
+screening methods for single kernel characterisation of wheat. Cereal Chemistry, 80, 3, 274-280.
+
+### wines_sensory
+
+Wines sensory dataset: A jury made up of four judges (expert tasters) evaluated the appearance of eight wines according to the procedure known as free profile, where each judge notes on a scale from 0 to 10 the products according to his/her own variables (Williams & Langron 1984, Hanafi & Qannari, 2008). For a product and given variable, the note allotted by a judge corresponds to the intensity which he/she perceives and which he/she is able, thanks to a preliminary drive, to translate in form of a note. Each matrix X is associated with one judge. The goal of the analysis was to evaluate if there is an agreement between judges or groups of judges and assess the relationships among wines.
+
+References:
+- Williams A. and Langron S.P. (1984). The use of free-choice profiling for the evaluation of commercial ports, J. Sci. Food Agric, 35, 558-568.
+
+- Hanafi, M., Qannari, E.M., 2008. Nouvelles propriétés de l’analyse en composantes communes et poids spécifiques. Journal de la société française de statistique 149, 75–97.
 
 ## <span style="color:green"> **Author** </span> 
 
