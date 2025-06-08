@@ -188,10 +188,10 @@ References:
 
 - Anderson, N.T., Walsh, K.B., Subedi, P.P., Hayes, C.H., 2020. Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content. Postharvest Biology and Technology 168, 111202. https://doi.org/10.1016/j.postharvbio.2020.111202
 
-### **mnist_20pcts**
-This is an extraction (20%; ntrain = 12000, ntest = 2000) of the CSV version of the MNIST dabase of handwritten digits (LeCun et al.).
+### **mnist20pcts**
+This is a random 20%-extraction (ntrain = 12000, ntest = 2000) of the CSV version of the MNIST dabase of handwritten digits (LeCun et al.).
 
-Each row of matrices X represents to a 28*28 image representing a number between '0' and '9' (labels to predict), with grey levels between 0 and 255.
+Each row of matrices X of the dataset is the unfolding of a 28*28 image (784 columns) that represents a number having value between '0' and '9' (response to predict) and handwritten. Each pixel of the image contains a grey level between 0 and 255.
 
 The JLD2 dataset is compressed; it requires package CodecZlib to be loaded.
 
