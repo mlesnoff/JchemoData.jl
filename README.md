@@ -191,7 +191,7 @@ References:
 ### **mnist20pcts**
 This is a random 20%-extraction (ntrain = 12000, ntest = 2000) of the CSV version of the MNIST dabase of handwritten digits (LeCun et al.).
 
-Each row of matrices X of the dataset is the unfolding of a 28*28 image (784 columns) that represents a number having value between '0' and '9' (response to predict) and handwritten. Each pixel of the image contains a grey level between 0 and 255.
+Each row of matrices X of the dataset is the unfolding of a 28*28 image (784 columns) that represents a number having value between '0' and '9' (response to predict) and handwritten. Each image pixel contains a grey level between 0 and 255.
 
 The JLD2 dataset is compressed; it requires package CodecZlib to be loaded.
 
