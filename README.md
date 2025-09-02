@@ -199,7 +199,7 @@ Sources:
 - CSV file (used for this extraction): https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
 
 ### **mlnir**
-MLNIR dataset available at: https://zenodo.org/records/16781223
+MLNIR dataset available at: https://zenodo.org/records/16783068
 
 N = 208 hydrocarbon samples. For each sample, a near-infrared spectrum (intensities measured at given wavelenghts in cm-1) 
 and a density value are provided. The dataset contains: 
