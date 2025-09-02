@@ -143,7 +143,6 @@ to NIR spectra. Chemometrics and Intelligent Laboratory Systems. 2005;79(1):31-4
 doi:10.1016/j.chemolab.2005.03.006.
 
 ### **grapevariety**
-
 Visible-NIR spectra collected (with Labspec ASD) on n = 432 fresh leaves of three wine grape varieties 
 to be discriminated. For confidentiality, the spectra have been anonymized and preprocessed
 with a Savitsky-Golay transformation (first derivate). A gap observed in the spectra at 1000 nm 
@@ -199,6 +198,15 @@ Sources:
 - Original: http://yann.lecun.com/exdb/mnist/
 - CSV file (used for this extraction): https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
 
+### **mlnir**
+MLNIR dataset available at: https://zenodo.org/records/16781223
+
+N = 208 hydrocarbon samples. For each sample, a near-infrared spectrum (intensities measured at given wavelenghts in cm-1) 
+and a density value are provided. The dataset contains: 
+* X: Raw NIR data
+* Xp: NIR data after preprocessing (SNV + 2nd derivative Savitzky-Golay)
+* y: Density normalized to [0, 1] (response to predict)
+
 ### **octane** 
 [Octane](https://cran.r-project.org/web/packages/rrcov/index.html) dataset contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
 
@@ -230,7 +238,6 @@ References:
 - Leo Breiman, Department of Statistics, UC Berkeley. Data used in Breiman L., Friedman J.H. (1985). Estimating optimal transformations for multiple regression and correlation, JASA, 80, pp. 580-598.
 
 ### **pac** 
-
 Dataset 'PAC' in Filzmoser 2023.
 This dataset contains data describing chemical–physical properties of chemical compounds 
 and thus belongs to the area of quantitative structure–property relationships (QSAR). 
@@ -282,7 +289,6 @@ A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
 These replicates were removed in the present JLD2 dataset.
 
 ### wheatkernels
-
 [Dataset 3](http://www.models.kvl.dk/wheat_kernels) used in Cui & Fearn 2018.
 
 Wheat kernels (ntrain = 415) representing 43 different varieties or variety mixtures from two different 
@@ -305,7 +311,6 @@ Analysis of NIT spectra of single wheat seeds. Applied Spectroscopy, 56, 9, 1206
 screening methods for single kernel characterisation of wheat. Cereal Chemistry, 80, 3, 274-280.
 
 ### wines_sensory
-
 Wines sensory dataset: A jury made up of four judges (expert tasters) evaluated the appearance of eight wines according to the procedure known as free profile, where each judge notes on a scale from 0 to 10 the products according to his/her own variables (Williams & Langron 1984, Hanafi & Qannari, 2008). For a product and given variable, the note allotted by a judge corresponds to the intensity which he/she perceives and which he/she is able, thanks to a preliminary drive, to translate in form of a note. Each matrix X is associated with one judge. The goal of the analysis was to evaluate if there is an agreement between judges or groups of judges and assess the relationships among wines.
 
 References:
