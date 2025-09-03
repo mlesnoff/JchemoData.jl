@@ -238,14 +238,9 @@ References:
 - Leo Breiman, Department of Statistics, UC Berkeley. Data used in Breiman L., Friedman J.H. (1985). Estimating optimal transformations for multiple regression and correlation, JASA, 80, pp. 580-598.
 
 ### **pac** 
-Dataset 'PAC' in Filzmoser 2023.
-This dataset contains data describing chemical–physical properties of chemical compounds 
-and thus belongs to the area of quantitative structure–property relationships (QSAR). 
-The compounds are modeled by chemical structure data, which have been drawn
-manually by the structure editor software Corina and Dragon. Here, 209 polycyclic aromatic compounds, 
-which are characterized by 467 molecular descriptors (X), are considered. The response variable (y) 
-is the gas chromatographic retention index for several substance classes. Because the descriptors cover
-a great diversity of chemical structures, still many of them may be irrelevant for predicting the response. 
+Dataset 'PAC' in Filzmoser 2023. The dataset contains QSAR data describing chemical–physical properties of chemical compounds 
+N = 209 polycyclic aromatic compounds are characterized by 467 molecular descriptors (X). The response variable (y) 
+is the gas chromatographic retention index for several substance classes. 
 
 Sources: 
 - Package chemometrics; Multivariate Statistical Analysis in Chemometrics 2023, Filzmoser P.
