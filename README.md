@@ -49,20 +49,13 @@ References:
 - Lesnoff, M., Metz, M., Roger, J.-M., 2020. Comparison of locally weighted PLS strategies for regression and discrimination on agronomic NIR data. Journal of Chemometrics n/a, e3209. https://doi.org/10.1002/cem.3209
 
 ### **cereal**
-Dataset 'cereal' in Filzmoser 2023.
-For 15 cereals an X and Y data set, measured on the same objects, is 
-available (Filzmoser 2023). The X data are 145 infrared spectra, and the
-Y data are 6 chemical/technical properties (Heating value, C, H, N, Starch, Ash). 
-The cereals come from 5 groups: B=Barley, M=Maize, R=Rye, T=Triticale, W=Wheat. 
-The data set can be used for PLS2.
+Dataset 'cereal' in Filzmoser 2023. For 15 cereals an X and Y data set, measured on the same objects, is available (Filzmoser 2023). The X data are 145 infrared spectra, and theY data are 6 chemical/technical properties (Heating value, C, H, N, Starch, Ash). The cereals come from 5 groups: B=Barley, M=Maize, R=Rye, T=Triticale, W=Wheat. The data set can be used for PLS2.
 
 Sources: 
-- Package chemometrics; Multivariate Statistical Analysis in Chemometrics, 
-2023, Filzmoser P.
+- Package chemometrics; Multivariate Statistical Analysis in Chemometrics, 2023, Filzmoser P.
 
 References:
-- K. Varmuza and P. Filzmoser: Introduction to Multivariate Statistical 
-Analysis in Chemometrics. CRC Press, Boca Raton, FL, 2009.
+- K. Varmuza and P. Filzmoser: Introduction to Multivariate Statistical Analysis in Chemometrics. CRC Press, Boca Raton, FL, 2009.
 
 ### **challenge2018**
 NIRS data (protein content of forages and feed) used in the challenge of the congress [Chemometrics2018](https://chemom2018.sciencesconf.org/) (Paris, January 2018). The original [data](https://chemom2018.sciencesconf.org/resource/page/id/5.html) contain errors (duplicates). The data provided in **JchemoData** have been corrected (duplicates have been removed), and documented with new descriptors (type of vegetal materials).
@@ -73,11 +66,7 @@ NIRS data (reflectance) used in the challenge of the e-congress [Chemometrics202
 ### **corn**
 [Eigenvector Corn data](https://eigenvector.com/resources/data-sets) 
 
-This data set consists of 80 samples of corn measured on 3 different 
-NIR spectrometers. The wavelength range is 1100-2498nm at 2 nm intervals (700 channels). 
-The moisture, oil, protein and starch values for each of the samples is also included. 
-A number of NBS glass standards were also measured on each instrument. 
-The data was originally taken at Cargill.
+This data set consists of 80 samples of corn measured on 3 different NIR spectrometers. The wavelength range is 1100-2498nm at 2 nm intervals (700 channels). The moisture, oil, protein and starch values for each of the samples is also included. A number of NBS glass standards were also measured on each instrument. The data was originally taken at Cargill.
 - m5spec: [80x700 dataset] Spectra on instrument m5
 - mp5spec: [80x700 dataset] Spectra on instrument mp5
 - mp6spec: [80x700 dataset] Spectra on instrument mp6
@@ -87,31 +76,18 @@ The data was originally taken at Cargill.
 - mp6nbs: [4x700 dataset] NBS glass stds on mp
 
 ### **fermentation**
-Dataset 'NIR' in Filzmoser 2023.
-Liebmann et al. 2009 (Filzmoser et al 2012) provided this dataset where 166 alcoholic
-fermentation mashes of different feedstock (rye, wheat, and corn) were analyzed. The response 
-variables are the concentrations of glucose and ethanol (in grams per liter) in substrates
-from the bioethanol processes. The 235 predictor variables contain the first derivatives 
-of near infrared spectroscopy (NIR) absorbance values at 1115–2285 nm, measured 
-in liquid samples. 
+Dataset 'NIR' in Filzmoser 2023. Liebmann et al. 2009 (Filzmoser et al 2012) provided this dataset where 166 alcoholic
+fermentation mashes of different feedstock (rye, wheat, and corn) were analyzed. The response variables are the concentrations of glucose and ethanol (in grams per liter) in substrates from the bioethanol processes. The 235 predictor variables contain the first derivatives of near infrared spectroscopy (NIR) absorbance values at 1115–2285 nm, measured in liquid samples. 
 
 Sources: 
-- Package chemometrics; Multivariate Statistical Analysis in Chemometrics
-2023, Filzmoser P.
+- Package chemometrics; Multivariate Statistical Analysis in Chemometrics 2023, Filzmoser P.
 
 References:
-- B. Liebmann, A. Friedl, and K. Varmuza. Determination of glucose and ethanol 
-in bioethanol production by near infrared spectroscopy and chemometrics. 
-Anal. Chim. Acta, 642:171-178, 2009.
-- Filzmoser, P., Gschwandtner, M., Todorov, V., 2012. Review of sparse methods 
-in regression and classification with application to chemometrics. Journal of 
-Chemometrics 26, 42–51. https://doi.org/10.1002/cem.1418
+- B. Liebmann, A. Friedl, and K. Varmuza. Determination of glucose and ethanol in bioethanol production by near infrared spectroscopy and chemometrics. Anal. Chim. Acta, 642:171-178, 2009.
+- Filzmoser, P., Gschwandtner, M., Todorov, V., 2012. Review of sparse methods in regression and classification with application to chemometrics. Journal of Chemometrics 26, 42–51. https://doi.org/10.1002/cem.1418
 
 ### **forages2**
-NIRS data on dried and grounded mixed forages (n = 485): stems, leaves etc. 
-Origin: mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm 
-(step = 2 nm). Data being private, spectra have been preprocessed with a standard 
-normal variation (SNV) and Savitzky-Golay (deriv = 2) transformation. 
+NIRS data on dried and grounded mixed forages (N = 485): stems, leaves etc. collected mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm  (step = 2 nm). The data being private, the provided spectra have been preprocessed: standard normal variation (SNV) and Savitzky-Golay (deriv = 2) transformation. 
 
 Response variables:
 - DM: dry matter content
@@ -122,31 +98,16 @@ Sources:
 - CIRAD, [UMR Selmet](https://umr-selmet.cirad.fr/en)
 
 ### **grapes**
-Varieties of wine grapes, to be discriminated by means of NIR and visible
-spectrometry. The spectra were measured in transmission on berries separated from the bunch, 
-in laboratory conditions, with a ZEISS MMS1 spectrometer. The wavelengths ranged from 
-310 to 1100 nm. These data were collected within the framework of a project aiming at characterizing 
-the sugar content and the acidity of wine grapes by NIR spectrometry. Thus,
-the berries were selected to span a great heterogeneity of maturity. Spectra were acquired 
-by batches of 50 individuals. Each batch contained individuals of the same variety. The 
-experimentation related to 3 varieties: carignan (crg), grenache blanc (grb) and grenache noir (grn). 
-Only crg and grb varieties were measured on different batches, at various dates.
-For crg and grb varieties, the training set and the test set are different batches, 
-whereas for the grn variety, a batch of spectra was cut randomly in two equal parts. Thus, 
-the calibration and test sets consisted each of n = 125 individuals described 
-by p = 256 variables.
+Varieties of wine grapes, to be discriminated by means of NIR and visible spectrometry. The spectra were measured in transmission on berries separated from the bunch, in laboratory conditions, with a ZEISS MMS1 spectrometer. The wavelengths ranged from 310 to 1100 nm. These data were collected within the framework of a project aiming at characterizing the sugar content and the acidity of wine grapes by NIR spectrometry. Thus,the berries were selected to span a great heterogeneity of maturity. Spectra were acquired by batches of 50 individuals. Each batch contained individuals of the same variety. The 
+experimentation related to 3 varieties: carignan (crg), grenache blanc (grb) and grenache noir (grn). Only crg and grb varieties were measured on different batches, at various dates. For crg and grb varieties, the training set and the test set are different batches, whereas for the grn variety, a batch of spectra was cut randomly in two equal parts. Thus, 
+the calibration and test sets consisted each of N = 125 individuals described by p = 256 variables.
 
 References:
-- Roger JM, Palagos B, Guillaume S, Bellon-Maurel V. Discriminating from highly 
-multivariate data by Focal Eigen Function discriminant analysis; application 
-to NIR spectra. Chemometrics and Intelligent Laboratory Systems. 2005;79(1):31-41. 
+- Roger JM, Palagos B, Guillaume S, Bellon-Maurel V. Discriminating from highly multivariate data by Focal Eigen Function discriminant analysis; application to NIR spectra. Chemometrics and Intelligent Laboratory Systems. 2005;79(1):31-41. 
 doi:10.1016/j.chemolab.2005.03.006.
 
 ### **grapevariety**
-Visible-NIR spectra collected (with Labspec ASD) on n = 432 fresh leaves of three wine grape varieties 
-to be discriminated. For confidentiality, the spectra have been anonymized and preprocessed
-with a Savitsky-Golay transformation (first derivate). A gap observed in the spectra at 1000 nm 
-has been removed before the preprocessing. 
+Visible-NIR spectra collected (with Labspec ASD) on N = 432 fresh leaves of three wine grape varieties to be discriminated. For confidentiality, the spectra have been anonymized and preprocessed with a Savitsky-Golay transformation (first derivate). A gap observed in the spectra at 1000 nm has been removed before the preprocessing. 
 
 Sources: 
 - M. Ecarnot, Inrae, UMR Agap, Montpellier, France.
@@ -190,8 +151,7 @@ References:
 ### **mlnir**
 MLNIR dataset available at: https://zenodo.org/records/16783068
 
-N = 208 hydrocarbon samples. For each sample, a near-infrared spectrum (intensities measured at given wavelenghts in cm-1) 
-and a density value are provided. The dataset contains: 
+N = 208 hydrocarbon samples. For each sample, a near-infrared spectrum (intensities measured at given wavelenghts in cm-1) and a density value are provided. The dataset contains: 
 * X: Raw NIR data
 * Xp: NIR data after preprocessing (SNV + 2nd derivative Savitzky-Golay)
 * y: Density normalized to [0, 1] (response to predict)
@@ -246,32 +206,17 @@ Sources:
 - Package chemometrics; Multivariate Statistical Analysis in Chemometrics 2023, Filzmoser P.
 
 References:
-- Filzmoser, P., Gschwandtner, M., Todorov, V., 2012. Review of sparse methods 
-in regression and classification with application to chemometrics. Journal of 
-Chemometrics 26, 42–51. https://doi.org/10.1002/cem.1418
-
+- Filzmoser, P., Gschwandtner, M., Todorov, V., 2012. Review of sparse methods in regression and classification with application to chemometrics. Journal of Chemometrics 26, 42–51. https://doi.org/10.1002/cem.1418
 
 ### **srbct**
-[Data](https://hastie.su.domains/ElemStatLearn/data.html) for small round blue cell 
-tumors (SRBCT) of childhood.  These data, consisting of expression measurements 
-on 2,308 genes, were obtained from glass-slide cDNA microarrays, prepared according
-to the standard National Human Genome Research Institute protocol. Each expression 
-value is a log-ratio log(R/G). R is the amount of gene-specific RNA in the target 
-sample that hybridizes to a particular (gene-specific) spot on the microarray, 
-and G is the corresponding amount of RNA from a reference sample. The tumors are 
-classified as Burkitt lymphoma (BL), Ewing sarcoma (EWS), neuroblastoma (NB), 
-or rhabdomyosarcoma (RMS). 
+[Data](https://hastie.su.domains/ElemStatLearn/data.html) for small round blue cell tumors (SRBCT) of childhood.  These data, consisting of expression measurements on 2,308 genes, were obtained from glass-slide cDNA microarrays, prepared according
+to the standard National Human Genome Research Institute protocol. Each expression value is a log-ratio log(R/G). R is the amount of gene-specific RNA in the target sample that hybridizes to a particular (gene-specific) spot on the microarray, 
+and G is the corresponding amount of RNA from a reference sample. The tumors are classified as Burkitt lymphoma (BL), Ewing sarcoma (EWS), neuroblastoma (NB), or rhabdomyosarcoma (RMS). 
 
-A total of 63 training samples and 25 test samples were provided,
-although five of the latter were not SRBCTs. One gene per row, one sample per column.
-Cancer classes are labelled 1, 2, 3, 4, 5 for c("BL", "EWS", "NB", "RMS", "Not Srbct").
-Class 5 is only present in the test data.
+A total of 63 training samples and 25 test samples were provided, although five of the latter were not SRBCTs. One gene per row, one sample per column. Cancer classes are labelled 1, 2, 3, 4, 5 for c("BL", "EWS", "NB", "RMS", "Not Srbct"). Class 5 is only present in the test data.
 
 References:
-- Tibshirani, R., Hastie, T., Narasimhan, B., Chu, G., 2002. 
-Diagnosis of multiple cancer types by shrunken centroids of gene expression. 
-Proceedings of the National Academy of Sciences 99, 6567–6572. 
-https://doi.org/10.1073/pnas.082099299
+- Tibshirani, R., Hastie, T., Narasimhan, B., Chu, G., 2002. Diagnosis of multiple cancer types by shrunken centroids of gene expression. Proceedings of the National Academy of Sciences 99, 6567–6572. https://doi.org/10.1073/pnas.082099299
 
 - https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/SRBCT%20Microarray.ipynb
 
@@ -280,18 +225,12 @@ NIRS data recorded on a Tecator Infratec Food and Feed Analyzer working in the w
 
 A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
 
-**Warning**: The original X-data contains 22 duplicates, and the Y-data 15 replicates. 
-These replicates were removed in the present JLD2 dataset.
+**Warning**: The original X-data contains 22 duplicates, and the Y-data 15 replicates. These replicates were removed in the present JLD2 dataset.
 
 ### wheatkernels
 [Dataset 3](http://www.models.kvl.dk/wheat_kernels) used in Cui & Fearn 2018.
 
-Wheat kernels (ntrain = 415) representing 43 different varieties or variety mixtures from two different 
-locations in Denmark made up the calibration set, while wheat kernels (ntest = 108) representing 11 
-different varieties from one location made up the test set10. All kernels were randomly chosen 
-from bulk samples. The test samples were acquired with the calibration samples, but stored for 
-about 2 additional months before measurement in order to provide a check for temporal drift in 
-the samples and instrumentation.
+Wheat kernels (ntrain = 415) representing 43 different varieties or variety mixtures from two different locations in Denmark made up the calibration set, while wheat kernels (ntest = 108) representing 11 different varieties from one location made up the test set10. All kernels were randomly chosen from bulk samples. The test samples were acquired with the calibration samples, but stored for about 2 additional months before measurement in order to provide a check for temporal drift in the samples and instrumentation.
 
 References:
 - Cui C, Fearn T, 2018. Modern prcatical convolutionnal neural networks for multivariate 
