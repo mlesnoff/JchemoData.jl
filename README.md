@@ -187,6 +187,15 @@ References:
 
 - Anderson, N.T., Walsh, K.B., Subedi, P.P., Hayes, C.H., 2020. Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content. Postharvest Biology and Technology 168, 111202. https://doi.org/10.1016/j.postharvbio.2020.111202
 
+### **mlnir**
+MLNIR dataset available at: https://zenodo.org/records/16783068
+
+N = 208 hydrocarbon samples. For each sample, a near-infrared spectrum (intensities measured at given wavelenghts in cm-1) 
+and a density value are provided. The dataset contains: 
+* X: Raw NIR data
+* Xp: NIR data after preprocessing (SNV + 2nd derivative Savitzky-Golay)
+* y: Density normalized to [0, 1] (response to predict)
+
 ### **mnist20pcts**
 This is a random 20%-extraction (ntrain = 12000, ntest = 2000) of the CSV version of the MNIST dabase of handwritten digits (LeCun et al.).
 
@@ -197,15 +206,6 @@ The JLD2 dataset is compressed; it requires package CodecZlib to be loaded.
 Sources: 
 - Original: http://yann.lecun.com/exdb/mnist/
 - CSV file (used for this extraction): https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
-
-### **mlnir**
-MLNIR dataset available at: https://zenodo.org/records/16783068
-
-N = 208 hydrocarbon samples. For each sample, a near-infrared spectrum (intensities measured at given wavelenghts in cm-1) 
-and a density value are provided. The dataset contains: 
-* X: Raw NIR data
-* Xp: NIR data after preprocessing (SNV + 2nd derivative Savitzky-Golay)
-* y: Density normalized to [0, 1] (response to predict)
 
 ### **octane** 
 [Octane](https://cran.r-project.org/web/packages/rrcov/index.html) dataset contains near infrared absorbance spectra (NIR) of n=39 gasoline samples over 226 wavelengths ranging from 1102 nm to 1552 nm with measurements every two nanometers. For each of the 39 production gasoline samples the octane number was measured. 
