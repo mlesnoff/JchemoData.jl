@@ -2,7 +2,8 @@
 
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
-The Julia package **JchemoData** is a repository containing datasets (chemometrics and others) in various formats (JLD2, CSV, etc.). Some of these datasets are used in the examples provided in [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl) and [**JchemoDemo**](https://github.com/mlesnoff/JchemoDemo).
+The Julia package **JchemoData** is a repository containing datasets (chemometrics and others) in various formats (JLD2, CSV, etc.). Some of these 
+datasets are used in the examples provided in [**Jchemo.jl**](https://github.com/mlesnoff/Jchemo.jl) and [**JchemoDemo**](https://github.com/mlesnoff/JchemoDemo).
 
 The **JLD2 datasets** are listed and described below.
 
@@ -227,22 +228,20 @@ A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
 
 **Warning**: The original X-data contains 22 duplicates, and the Y-data 15 replicates. These replicates were removed in the present JLD2 dataset.
 
-### wheatkernels
-[Dataset 3](http://www.models.kvl.dk/wheat_kernels) used in Cui & Fearn 2018.
+### wheatkernels_cui
+[Dataset 3](https://ucphchemometrics.com/datasets/) used in Cui & Fearn 2018.
 
 Wheat kernels (ntrain = 415) representing 43 different varieties or variety mixtures from two different locations in Denmark made up the calibration set, while wheat kernels (ntest = 108) representing 11 different varieties from one location made up the test set10. All kernels were randomly chosen from bulk samples. The test samples were acquired with the calibration samples, but stored for about 2 additional months before measurement in order to provide a check for temporal drift in the samples and instrumentation.
 
 References:
-- Cui C, Fearn T, 2018. Modern prcatical convolutionnal neural networks for multivariate 
-regression: application to NIR calibration. Chemometrics and Intelligent Laboratory Systems 
-182, 9-20.
+- Cui C, Fearn T, 2018. Modern prcatical convolutionnal neural networks for multivariate regression: application to NIR calibration. 
+Chemometrics and Intelligent Laboratory Systems 182, 9-20.
 
-- Dorthe Kjær Pedersen, Harald Martens, Jesper Pram Nielsen and Søren Balling Engelsen. 2002. 
-Near infrared absorption and scattering separated by Extended Inverted Signal Correction (EISC). 
-Analysis of NIT spectra of single wheat seeds. Applied Spectroscopy, 56, 9, 1206-1214.
+- Dorthe Kjær Pedersen, Harald Martens, Jesper Pram Nielsen and Søren Balling Engelsen. 2002. Near infrared absorption and scattering separated by Extended 
+Inverted Signal Correction (EISC). Analysis of NIT spectra of single wheat seeds. Applied Spectroscopy, 56, 9, 1206-1214.
 
-- Jesper Pram Nielsen, Dorthe Kjær Pedersen and Lars Munck. 2003. Development of non-destructive 
-screening methods for single kernel characterisation of wheat. Cereal Chemistry, 80, 3, 274-280.
+- Jesper Pram Nielsen, Dorthe Kjær Pedersen and Lars Munck. 2003. Development of non-destructive screening methods for single kernel characterisation of wheat. 
+Cereal Chemistry, 80, 3, 274-280.
 
 ### wines_sensory
 Wines sensory dataset: A jury made up of four judges (expert tasters) evaluated the appearance of eight wines according to the procedure known as free profile, where each judge notes on a scale from 0 to 10 the products according to his/her own variables (Williams & Langron 1984, Hanafi & Qannari, 2008). For a product and given variable, the note allotted by a judge corresponds to the intensity which he/she perceives and which he/she is able, thanks to a preliminary drive, to translate in form of a note. Each matrix X is associated with one judge. The goal of the analysis was to evaluate if there is an agreement between judges or groups of judges and assess the relationships among wines.
