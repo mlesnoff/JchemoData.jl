@@ -229,7 +229,7 @@ A full description is given [here](http://lib.stat.cmu.edu/datasets/tecator).
 **Warning**: The original X-data contains 22 duplicates, and the Y-data 15 replicates. These replicates were removed in the present JLD2 dataset.
 
 ### wheatkernels_cui
-[Dataset 3](https://ucphchemometrics.com/datasets/) used in Cui & Fearn 2018.
+This is the [dataset 3](https://ucphchemometrics.com/datasets/) used in Cui & Fearn 2018.
 
 Wheat kernels (ntrain = 415) representing 43 different varieties or variety mixtures from two different locations in Denmark made up the calibration set, while wheat kernels (ntest = 108) representing 11 different varieties from one location made up the test set10. All kernels were randomly chosen from bulk samples. The test samples were acquired with the calibration samples, but stored for about 2 additional months before measurement in order to provide a check for temporal drift in the samples and instrumentation.
 
