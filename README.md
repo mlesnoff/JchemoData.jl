@@ -46,7 +46,6 @@ Sources:
 
 References:
 - Davrieux, F., Dufour, D., Dardenne, P., Belalcazar, J., Pizarro, M., Luna, J., Londoño, L., Jaramillo, A., Sanchez, T., Morante, N., Calle, F., Becerra Lopez-Lavalle, L., Ceballos, H., 2016. LOCAL regression algorithm improves near infrared spectroscopy predictions when the target constituent evolves in breeding populations. Journal of Near Infrared Spectroscopy 24, 109. https://doi.org/10.1255/jnirs.1213
-
 - Lesnoff, M., Metz, M., Roger, J.-M., 2020. Comparison of locally weighted PLS strategies for regression and discrimination on agronomic NIR data. Journal of Chemometrics n/a, e3209. https://doi.org/10.1002/cem.3209
 
 ### **cereal**
@@ -87,6 +86,15 @@ References:
 - B. Liebmann, A. Friedl, and K. Varmuza. Determination of glucose and ethanol in bioethanol production by near infrared spectroscopy and chemometrics. Anal. Chim. Acta, 642:171-178, 2009.
 - Filzmoser, P., Gschwandtner, M., Todorov, V., 2012. Review of sparse methods in regression and classification with application to chemometrics. Journal of Chemometrics 26, 42–51. https://doi.org/10.1002/cem.1418
 
+### **flour_splus6**
+Dataset reported in the Splus6 Manual, p. 629 (example used to compute estimated marginal means, a.k.a 'ls-means')
+
+Uncomplete 3-factor design without replication (n = 26 obs.):
+* 3 fat levels
+* 3 surfactant levels
+* 4 flour types
+* and reponse variable 'y'
+
 ### **forages2**
 NIRS data on dried and grounded mixed forages (N = 485): stems, leaves etc. collected mainly tropical African areas. FOSS NiRSystem Instruments 1100-2498 nm  (step = 2 nm). The data being private, the provided spectra have been preprocessed: standard normal variation (SNV) and Savitzky-Golay (deriv = 2) transformation. 
 
@@ -118,7 +126,6 @@ Sensory evaluation of eight American dry-cured ham products, performed by a pane
 
 References:
 - M.D. Guardia, A.P. Aguiar, A. Claret, J. Arnau & L. Guerrero (2010). Sensory characterization of dry-cured ham using free-choice profiling. Food Quality and Preference, 21(1), 148-155. doi: 10.1016/j.foodqual.2009.08.014
-
 - Tchandao Mangamana, E., Cariou, V., Vigneau, E., Glèlè Kakaï, R.L., Qannari, E.M., 2019. Unsupervised multiblock data analysis: A unified approach and extensions. Chemometrics and Intelligent Laboratory Systems 194, 103856. https://doi.org/10.1016/j.chemolab.2019.103856
 
 ### **iris** 
@@ -126,9 +133,7 @@ Fisher's or Anderson's [iris](https://stat.ethz.ch/R-manual/R-devel/library/data
 
 References: 
 - Fisher, R. A. (1936) The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7, Part II, 179–188.
-
 - Anderson, Edgar (1935). The irises of the Gaspe Peninsula, Bulletin of the American Iris Society, 59, 2–5.
-
 - Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) The New S Language. Wadsworth & Brooks/Cole. (has iris3 as iris.)
 
 ### **linnerud**
@@ -146,7 +151,6 @@ NIRS data from [mango](https://data.mendeley.com/datasets/46htwnp833/1).
 
 References:
 - Anderson, N.T., Walsh, K.B., Flynn, J.R., Walsh, J.P., 2021. Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content. II. Local PLS and nonlinear models. Postharvest Biology and Technology 171, 111358. https://doi.org/10.1016/j.postharvbio.2020.111358
-
 - Anderson, N.T., Walsh, K.B., Subedi, P.P., Hayes, C.H., 2020. Achieving robustness across season, location and cultivar for a NIRS model for intact mango fruit dry matter content. Postharvest Biology and Technology 168, 111202. https://doi.org/10.1016/j.postharvbio.2020.111202
 
 ### **mlnir**
@@ -225,7 +229,6 @@ A total of 63 training samples and 25 test samples were provided, although five 
 
 References:
 - Tibshirani, R., Hastie, T., Narasimhan, B., Chu, G., 2002. Diagnosis of multiple cancer types by shrunken centroids of gene expression. Proceedings of the National Academy of Sciences 99, 6567–6572. https://doi.org/10.1073/pnas.082099299
-
 - https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/SRBCT%20Microarray.ipynb
 
 ### **tecator**
@@ -243,10 +246,8 @@ Wheat kernels (ntrain = 415) representing 43 different varieties or variety mixt
 References:
 - Cui C, Fearn T, 2018. Modern prcatical convolutionnal neural networks for multivariate regression: application to NIR calibration. 
 Chemometrics and Intelligent Laboratory Systems 182, 9-20.
-
 - Dorthe Kjær Pedersen, Harald Martens, Jesper Pram Nielsen and Søren Balling Engelsen. 2002. Near infrared absorption and scattering separated by Extended 
 Inverted Signal Correction (EISC). Analysis of NIT spectra of single wheat seeds. Applied Spectroscopy, 56, 9, 1206-1214.
-
 - Jesper Pram Nielsen, Dorthe Kjær Pedersen and Lars Munck. 2003. Development of non-destructive screening methods for single kernel characterisation of wheat. 
 Cereal Chemistry, 80, 3, 274-280.
 
@@ -255,7 +256,6 @@ Wines sensory dataset: A jury made up of four judges (expert tasters) evaluated 
 
 References:
 - Williams A. and Langron S.P. (1984). The use of free-choice profiling for the evaluation of commercial ports, J. Sci. Food Agric, 35, 558-568.
-
 - Hanafi, M., Qannari, E.M., 2008. Nouvelles propriétés de l’analyse en composantes communes et poids spécifiques. Journal de la société française de statistique 149, 75–97.
 
 ## <span style="color:green"> **Author** </span> 
@@ -267,7 +267,4 @@ References:
 - [**ChemHouse**](https://www.chemproject.org/ChemHouse), Montpellier
 
 **matthieu.lesnoff@cirad.fr**
-
-
-
 
