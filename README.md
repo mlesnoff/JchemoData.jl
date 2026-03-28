@@ -213,9 +213,9 @@ Sources:
 References:
 - Filzmoser, P., Gschwandtner, M., Todorov, V., 2012. Review of sparse methods in regression and classification with application to chemometrics. Journal of Chemometrics 26, 42–51. https://doi.org/10.1002/cem.1418
 
-### **reaction_bert**
-Simulated reaction data set used to explain ASCA in Bertinetto et al. 2020. The data consists of the yields
-(y1 and y2) for two products as a function of applied temperature and catalyst factors.
+### **reaction_bertinetto**
+Two simulated data sets used to explain ASCA in Bertinetto et al. 2020:  yields (y1 and y2) for two reaction 
+products as a function of applied temperature and catalyst factors (balanced and unbalanced situations). 
 
 References:
 - Bertinetto, C., Engel, J., Jansen, J., 2020. ANOVA simultaneous component analysis: A tutorial review. Analytica Chimica Acta: X 6, 100061. https://doi.org/10.1016/j.acax.2020.100061
