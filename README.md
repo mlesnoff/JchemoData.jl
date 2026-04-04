@@ -181,6 +181,21 @@ References:
 - M. Hubert, P. J. Rousseeuw, K. Vanden Branden (2005), ROBPCA: a new approach to robust principal components analysis, Technometrics, 47, 64–79.
 - P. J. Rousseeuw, M. Debruyne, S. Engelen and M. Hubert (2006), Robustness and Outlier Detection in Chemometrics, Critical Reviews in Analytical Chemistry, 36(3–4), 221–242.
 
+### **oregano_occ**
+
+[Oregano](https://mda.tools/ddsimca/Oregano.zip) dataset used es example for one-class classification (OCC) in 
+Kucheryavskiy et al. 2024. The dataset consists of near infrared (NIR) spectra of several types of herbs, with 
+oregano (Origanum vulgare) being the herb of interest (target class). All spectra were acquired using Nicolet 
+6700 (Thermo Fisher) bench top spectrometer with InGaAs detector, in the full NIR range (12,000–4,000 cm-1) which 
+then was truncated to 9,000–4,000 cm-1. The spectra were processed using standard normal variate (SNV) correction to 
+adjust for background and to reduce scattering effects (Rodionova et al. 2020, Kucheryavskiy et al. 2024).
+
+References:
+- Kucheryavskiy, S., Rodionova, O., Pomerantsev, A., 2024. A comprehensive tutorial on Data-Driven SIMCA: Theory and implementation in web. Journal of Chemometrics 38, e3556. https://doi.org/10.1002/cem.3556
+- Rodionova, O.Ye., Pomerantsev, A.L., 2020. Chemometric tools for food fraud detection: The role of target class 
+in non-targeted analysis. Food Chemistry 317, 126448. 
+https://doi.org/10.1016/j.foodchem.2020.126448
+
 ### **ozone**
 [Ozone](https://cran.r-project.org/web/packages/mlbench/index.html) dataset. A data frame with 366 observations on 13 variables, each observation is one day:
 1. Month: 1 = January, ..., 12 = December
