@@ -61,8 +61,10 @@ References:
 NIRS data (protein content of forages and feed) used in the challenge of the congress [Chemometrics2018](https://chemom2018.sciencesconf.org/) (Paris, January 2018). The original [data](https://chemom2018.sciencesconf.org/resource/page/id/5.html) contain errors (duplicates). The data provided in **JchemoData** have been corrected (duplicates have been removed), and documented with new descriptors (type of vegetal materials).
 
 ### **challenge2021**
-Data used in the challenge of the e-congress [Chemometrics2021](https://chemom2021.sciencesconf.org/) (February 2021). See [here](https://chemom2021.sciencesconf.org/resource/page/id/5.html?lang=fr) for a full description of the data.
-One parameter (degrees Brix) has to be predicted from near infrared spectra (reflectance) of fruits scanned between 300 – 1100 nm. The training set contains 1066 spectra and the test set 993.
+Data used in the challenge of the e-congress [Chemometrics2021](https://chemom2021.sciencesconf.org/) (February 2021). See [here](https://chemom2021.sciencesconf.org/resource/page/id/5.html?lang=fr) for a full description.
+One parameter (degrees Brix) has to be predicted from near infrared spectra (reflectance) of fruits scanned between 300 – 1100 nm. The original data contain a calibration set (1066 spectra of instrument 1, and the variable to predict), a set of standardization between instruments (245 spectra per instrument), and a validation set to predict (993 spectra, from instruments 1 to 7).
+
+In dataset **challenge2021**, objects 'Xtrain', 'Ytrain', 'Xtest' and 'Ytest' only correspond to instrument 1. 
 
 ### **corn**
 [Eigenvector Corn data](https://eigenvector.com/resources/data-sets) 
